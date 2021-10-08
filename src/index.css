@@ -85,7 +85,7 @@ h4 {
   line-height: 1.25;
   margin-bottom: 0.75rem;
 }
-
+/*Sizing convention for text*/
 h1 {
   font-size: 2.5rem;
 }
@@ -107,6 +107,7 @@ p {
   color: var(--clr-grey-3);
 }
 
+/*use media query for making responsive ui*/
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 3rem;
