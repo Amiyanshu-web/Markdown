@@ -188,6 +188,7 @@ Markdown
 .input,
 .result {
   padding: 1rem 2rem;
+  font-size: 22px;
 }
 
 h2,p{
