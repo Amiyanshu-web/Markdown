@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
-
+//functional component
 function App() {
   const [markdown, setMarkdown] = useState('## markdown preview')
   return (<main>
