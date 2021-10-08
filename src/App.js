@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 
-import { DARK } from './constants/constants';
+import { DARK } from './constants';
 
 import { ThemeContext } from './context/themeContext';
 
