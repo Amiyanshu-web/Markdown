@@ -163,18 +163,35 @@ Markdown
   row-gap: 4rem;
 }
 
-.input {
+.markdown_editor,.markdown_result {
   border-color: transparent;
   border-radius: var(--radius);
   font-size: 1.2rem;
   line-height: 2;
   box-shadow: var(--light-shadow);
-  min-height: 30vh;
+  /* min-height: 30vh;
+  height: 80vh; */
+}
+
+.editor_heading{
+  padding: 10px 25px;
+  background-color: #222;
+  color: #fff;
+  border-radius: 7px 7px 0 0;
+}
+
+.input{
+  height: 90%;
+  width: 100%;
 }
 
 .input,
 .result {
   padding: 1rem 2rem;
+}
+
+h2,p{
+  padding: 10px 15px;
 }
 
 @media screen and (min-width: 992px) {
