@@ -157,13 +157,43 @@ p {
 Markdown
 ===============
 */
+
+.container.dark {
+  background: #111111;
+}
+
+.header {
+  padding: 2rem 2rem 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header.dark {
+  color: var(--clr-grey-4);
+}
+
+.toggleTheme {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.toggleTheme.dark {
+  transform: rotate(180deg);
+  filter: invert(1);
+  transition: 0.5s;
+}
+
 .markdown {
   padding: 4rem;
   display: grid;
   row-gap: 4rem;
 }
 
-.markdown_editor,.markdown_result {
+.markdown_editor,
+.markdown_result {
   border-color: transparent;
   border-radius: var(--radius);
   font-size: 1.2rem;
@@ -173,16 +203,36 @@ Markdown
   height: 80vh; */
 }
 
-.editor_heading{
+.markdown_editor.dark,
+.markdown_result.dark {
+  box-shadow: var(--dark-shadow);
+  background: #222;
+}
+
+.editor_heading {
   padding: 10px 25px;
   background-color: #222;
   color: #fff;
   border-radius: 7px 7px 0 0;
 }
 
-.input{
+.editor_heading.dark {
+  background-color: var(--clr-grey-1);
+}
+
+.input {
   height: 90%;
   width: 100%;
+}
+
+.input.dark {
+  background-color: #222;
+  color: #fff;
+  border: none;
+}
+
+.output.dark {
+  color: #fff;
 }
 
 .input,
@@ -191,7 +241,8 @@ Markdown
   font-size: 22px;
 }
 
-h2,p{
+h2,
+p {
   padding: 10px 15px;
 }
 
