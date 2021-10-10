@@ -219,6 +219,33 @@ Markdown
   border-radius: 7px 7px 0 0;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.copybtn {
+  padding: 5px 20px 5px 20px;
+  background-color: rgb(231, 232, 233);
+  color: #222;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+
+.copybtn:hover {
+  background-color: rgb(190, 190, 190);
+}
+
+.templatebtn {
+  padding: 5px 20px 5px 20px;
+  background-color: rgb(231, 232, 233);
+  color: #222;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.templatebtn:hover {
+  background-color: rgb(190, 190, 190);
 }
 
 .btn {
@@ -227,7 +254,6 @@ Markdown
 
 .btn_copy {
   margin-right: 5px;
-
 }
 
 .editor_heading.dark {
