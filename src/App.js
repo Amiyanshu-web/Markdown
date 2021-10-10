@@ -265,12 +265,10 @@ function App() {
             <div className={`editor_heading ${theme === DARK ? theme : null}`}>
               Markdown Editor
               <div>
-              <button onClick={()=>setIsTemplate(!isTemplate)}>Template</button>
+                <button className="templatebtn" onClick={()=>setIsTemplate(!isTemplate)}>Template</button>
+                <button className="copybtn" onClick={copyToClipboard}>Copy</button>
+                {copySuccess}
               </div>
-              <div>
-          <button onClick={copyToClipboard}>Copy</button> 
-          {copySuccess}
-        </div>
             </div>
             <textarea
                ref={textAreaRef}
