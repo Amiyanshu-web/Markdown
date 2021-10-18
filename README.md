@@ -7,5 +7,13 @@ Check out the live website [here](https://markdownn.netlify.app/):
 
 p.s.- Used [Markdown Previewer](https://jolly-beaver-ce327d.netlify.app/) to generate this readme
 
-![image](https://user-images.githubusercontent.com/70425790/136505750-7439503d-e1eb-40ad-bbac-1a6e97cd1b7a.png)
+**Normal Mode**
+
+![normal mode](https://user-images.githubusercontent.com/82315193/137756171-da58cebd-f88a-42e9-8931-b4d7c34ad14b.png)
+
+**Dark Mode**
+
+![dark mode](https://user-images.githubusercontent.com/82315193/137756641-432871cf-193d-4207-b0de-806e6f64033e.png)
+
+
 
