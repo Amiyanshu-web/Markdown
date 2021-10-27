@@ -106,7 +106,7 @@ h4 {
 
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-9);
+  color: var(--clr-primary-3);
 }
 
 /*use media query for making responsive ui*/
