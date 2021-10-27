@@ -172,7 +172,7 @@ Markdown
 }
 
 .header.dark {
-  color: hsl(205, 100%, 96%);
+  color: var(--clr-primary-10);;
 }
 
 .toggleTheme {
