@@ -106,7 +106,7 @@ h4 {
 
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-3);
+  color: var(--clr-grey-9);
 }
 
 /*use media query for making responsive ui*/
@@ -172,7 +172,7 @@ Markdown
 }
 
 .header.dark {
-  color: var(--clr-grey-4);
+  color: var(--clr-primary-10);;
 }
 
 .toggleTheme {
