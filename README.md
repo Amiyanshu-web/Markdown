@@ -6,15 +6,22 @@ Check out the live website [here](https://markdownn.netlify.app/):
 **Built using [ReactJs](https://reactjs.org/) and hosted on [netlify](https://www.netlify.com/)** 
 
 p.s.- Used [Markdown Previewer](https://jolly-beaver-ce327d.netlify.app/) to generate this readme
+<br>
+<hr>
 
 
 **This is Preview / Appearance of LightTheme with sample text**
-<img width="934" alt="LightMode" src="https://user-images.githubusercontent.com/84512702/137906342-410f9fd2-e1e7-491d-9aba-903e7fef3a46.PNG">
+
+<img width="937" alt="LightMode" src="https://user-images.githubusercontent.com/84512702/139190889-9aa9cdf2-7849-4580-875e-7dd9b36ded59.PNG">
+
 
 
 **This is Preview / Appearance of DarkTheme with sample text**
-<img width="930" alt="DarkMode" src="https://user-images.githubusercontent.com/84512702/137906470-6595bb7b-31d3-41b9-a869-f0d0f8c3279f.PNG">
 
+<img width="935" alt="DarkMode" src="https://user-images.githubusercontent.com/84512702/139190906-12dc8f09-7e4e-4e38-b0f2-331ee761e649.PNG">
+
+<br>
+<hr>
 
 **Normal Mode**
 
